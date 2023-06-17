@@ -1,16 +1,12 @@
 "use client";
-import UsersProvider from "@/components/contexts/userContext";
-import NewUser from "@/components/newUser";
-import Users from "@/components/users";
+
+import FetchApi from "@/components/fetchApi";
 
 function Home() {
   return (
-    <UsersProvider>
-      <main className="flex  flex-col items-center justify-between p-5">
-        <NewUser />
-        <Users />
-      </main>
-    </UsersProvider>
+    <main className=" w-full flex flex-col justify-center items-center p-5">
+      <FetchApi />
+    </main>
   );
 }
 

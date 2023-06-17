@@ -1,11 +1,11 @@
 "use client";
 
-import FetchApi from "@/components/fetchApi";
+import UseRef from "@/components/useRef";
 
 function Home() {
   return (
     <main className=" w-full flex flex-col justify-center items-center p-5">
-      <FetchApi />
+      <UseRef />
     </main>
   );
 }

@@ -1,11 +1,11 @@
 "use client";
 
-import UseRef from "@/components/useRef";
+import UseReducer from "@/components/books";
 
 function Home() {
   return (
-    <main className=" w-full flex flex-col justify-center items-center p-5">
-      <UseRef />
+    <main className=" w-full flex flex-col justify-center items-center p-5 ">
+      <UseReducer />
     </main>
   );
 }
